@@ -63,9 +63,3 @@ Greenden aims to provide a simple and visually appealing platform for discoverin
 ## 🎯 Project Purpose
 
 This project was created to practice **HTML and Tailwind CSS** while building a real-world responsive website for an indoor plant and interior-decoration concept.
-
-
-
-## 📄 License
-
-This project is created for educational and practice purposes.
