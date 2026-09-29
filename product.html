@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="tailwind.config.js">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+     <nav class="bg-green-100 p-3 flex justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+        <ul class="flex gap-5 items-center text-gray-600 hidden md:flex">
+            <li > 
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li><a class="hover:underline  hover:text-black" href="product.html">Products</a></li>
+            <li><a class="hover:underline  hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+     </nav>
+     <!-- Additional -->
+      <section>
+        <ul class="flex gap-5 items-center text-white justify-center p-3 bg-green-900 shadow-xl md:hidden">
+            <li > 
+                <a class="hover:underline" href="index.html">Home</a>
+            </li>
+            <li><a class="hover:underline" href="product.html">Products</a></li>
+            <li><a class="hover:underline" href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+     <!-- Products -->
+     <section class="text-center mt-5 p-4">
+            <h1 class="text-3xl font-bold">Our Products</h1>
+             <input placeholder="Search for a Products" type="search" class="border border-black p-2 m-3 outline-none" style="width:80%"> 
+            <div class="grid grid-cols-2 gap-5 mt-5 md:grid-cols-4">
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_1.jpg" alt="">
+                    <h2 class="font-medium">Snake plant</h2>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_2.jpg" alt="">
+                    <h2 class="font-medium">Bloomy Rose</h2>
+                    <p>$40</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_3.jpg" alt="">
+                    <h2 class="font-medium">Marigold</h2>
+                    <p>$80</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_4.jpg" alt="">
+                    <h2 class="font-medium">Lavener</h2>
+                    <p>$30</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_6.jpg" alt="">
+                    <h2 class="font-medium">Tulipan</h2>
+                    <p>$35</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_7.jpg" alt="">
+                    <h2 class="font-medium">Peach Ball</h2>
+                    <p>$23</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_5.jpg" alt="">
+                    <h2 class="font-medium">Lisianthus</h2>
+                    <p>$55</p>
+                </div>
+                <div>
+                    <img class="inline transform hover:-translate-y-2 hover:shadow-xl" src="./images/bestseller_8.jpg" alt="">
+                    <h2 class="font-medium">Azalea</h2>
+                    <p>$54</p>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <section class="bg-green-100 mt-5 p-6" >
+            <h1 class="md:text-4xl font-bold mb-2 text-3xl">Greenden</h1>
+            <p>Beautiful flowers, thoughtfully arranged and delivered with love to make every special moment truly unforgettable.</p>
+            <p class="mt-2 text-gray-500">&copy;2026 Greenden.com</p>
+         </section>
+</body>
+</html>
